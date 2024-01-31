@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>  
+
+<body>
+<main>
+  
+  <form id="survey-form">
+    <h1 id="title"> Form Mastercode </h1>
+  <p id="description"> Formulario de practica para certificacion web</p>
+  <fieldset>
+    <legend>Personal info</legend>
+
+     <label id="name-label"  name="name">Name 
+      <input id="name" type="text" placeholder="Enter your name"  required />
+   </label>
+    
+    
+    <label id="email-label" name="email">Email
+      <input id="email" type="email" placeholder="Enter your email"  required />
+    </label>
+
+   
+    <label id="number-label" name="number">Age (Optional)
+      <input id="number" type="number" placeholder="Age" min="15" max="98" name="number" required  /></label>
+    <legend>Occupation</legend>
+    <select id="dropdown">
+      <option>(select one)</option>
+      <option>Student</option>
+      <option>Freelancer</option>
+      <option>Employee</option>
+    </select>
+    </fieldset>
+
+    <fieldset>
+    <legend>Do you learn a lot in FreeCodeCamp?</legend>
+    <label for="recomendation"><input id="recomendation" type="radio" name="recomendation" value="1"  class="inline" checked /> Definitely</label>
+    <label for="recomendation"><input id="recomendation" type="radio" name="recomendation" value="2" class="inline" /> Sure</label>
+    <label for="recomendation"><input id="recomendation" type="radio" name="recomendation" value="3" class="inline" /> Not sure</label>
+    </fieldset>
+
+    <fieldset>
+    <legend>Goals</legend>
+
+    <label for="selection"><input id="selection" type="checkbox" name="selection" value="1" class="inline" required /> Become a front end web developer</label>
+    <label for="selection"><input id="selection" type="checkbox" name="selection" value="2" class="inline" /> Become a back end web developer</label>
+    <label for="selection"><input id="selection" type="checkbox" name="selection" value="3" class="inline" /> Become a full stack web developer</label>
+
+    <label for="selection"><input id="selection" type="checkbox" name="selection" value="4" class="inline"/> Still figuring it out</label>
+    </fieldset>
+
+<fieldset>
+  <legend>Aditional Comments</legend>
+<textarea></textarea>
+<input type="submit" value="Submit" id="submit"/>
+</fieldset>
+  </form>
+
+
+
+
+
+
+
+
+
+</main>
+</body
+
+</html>
